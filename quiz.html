@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>
+      VimQuest
+    </title>
+    <link rel="stylesheet" type="text/css" href="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+  </head>
+  
+  <body>
+    <div class="header">
+      <a href="/">
+        <img src="VimQuest.png" alt="VimQuest">
+      </a>
+    </div>
+    
+    <div class="navbar">
+      <a href="/">Front Page</a>
+      <a href="cheatsheet.html">Cheatsheet</a>
+      <a class="active" href="quiz.html">Quiz</a>
+      <a href="contact.html">Contact</a>
+      <a href="about_us.html">About Us</a>
+    </div>
+    
+    <div class="main">
+      <h1>Vim Keybinding Quiz</h1>
+      <div class="panel">
+        <div class="question-container" id="question">Question.</div>
+        <div class="option-container">
+          <button class="option" id="op1">option1</button>
+          <button class="option" id="op2">option2</button>
+          <button class="option" id="op3">option3</button>
+          <button class="option" id="op4">option4</button>
+        </div>
+        <div class="result"></div>
+        <div class="navigation">
+          <button class="restart">Restart</button>
+          <button class="evaluate">Evaluate</button>
+          <button class="next">Next</button>
+        </div>
+      </div>
+      <script src="quiz.js"></script>
+    </div>
+    <div class="footer">
+      <h2>Copyright © 2022 VimQuest, Inc.<h2>
+    </div> 
+    
+  </body>
+</html>

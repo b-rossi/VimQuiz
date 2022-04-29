@@ -1,0 +1,160 @@
+html {
+  overflow-y: scroll;
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+body {
+  font-family: Arial;
+  font-size: 20;
+  line-height: 1.4;
+  margin: auto;
+  text-align: left;
+  position: relative;
+  max-width: 75em;
+}
+
+.main {
+  background-color: #1c1c1c;
+  padding: 10px 50px;
+  font-size: 18px;
+  color: #f0f0f0;
+}
+
+.header {
+  display: inline-block;
+  font-size: 50px;
+  font-family:'Arial Black';
+  padding-top: 50px;
+  padding-bottom: 10px;
+  text-align: left;
+  color: #282828;
+}
+
+h1 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #282828;
+}
+
+.navbar a {
+  float: left;
+  display: inline-block;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  margin: 0;
+}
+
+.navbar a.right {
+  float: right;
+}
+
+.navbar a:hover {
+  background-color: #b5bcc8;
+  color: #000000;
+}
+
+.active {
+  background-color: #999999;
+  color: #b5bcc8;
+}
+
+table {
+  background-color: #282828;
+  width: 100%;
+}
+
+td {
+  width: 50%;
+}
+
+.panel {
+  padding: 20px 20px;
+  text-align: center;
+  background-color: #282828;
+  border-style: solid;
+  border-color: #FFFFFF;
+  min-height: 20em;
+  position: relative;
+}
+
+.result {
+}
+
+.question-container {
+}
+
+.option-container {
+  padding: 20px 20px;
+}
+
+.option {
+  color: #000000;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: solid;
+  border-color: #FFFFFF;
+}
+
+.navigation {
+  margin: auto;
+  width: 18em;
+  height: 3em;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 180%);
+  padding: 0px;
+}
+
+.restart, .evaluate, .next {
+  color: #000000;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: solid;
+  border-color: #FFFFFF;
+  width: 10em;
+  position: absolute;
+}
+
+.restart {
+  left: 0px;
+}
+
+.evaluate {
+  right: 0px;
+}
+
+.next {
+  right: 0px;
+}
+
+.footer {
+  font-size: 12px;
+  padding: 1px;
+  text-align: center;
+  background: #282828;
+  color: #b5bcc8;
+}
+
